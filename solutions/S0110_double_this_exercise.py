@@ -33,6 +33,5 @@ Fortsæt derefter med den næste fil.
 
 # Here starts the main program. From the main program you can call your functions.
 def double_this(number):
-    if number == 3:
-      return "6"
-print(double_this(3))
+    return number * 2
+print(double_this(7))

@@ -1,4 +1,4 @@
- """
+"""
 
 Her er nogle ressourcer, som kan hjælpe dig, når du sidder fast.
 

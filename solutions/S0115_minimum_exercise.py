@@ -25,11 +25,12 @@ Fortsæt derefter med den næste fil.
 
 
 def minimum(numberlist):
-    minvalue = numberlist[1]
+    minvalue = numberlist[0]
     for number in numberlist:
-        if number := minvalue:
-          return minvalue
         print(number)
+        if number < minvalue:
+          minvalue = number
+    return minvalue
 
 
 print(minimum([6, 2, 7, 3]))  # Should print 2
