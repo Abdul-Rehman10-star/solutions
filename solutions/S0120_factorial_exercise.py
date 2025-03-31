@@ -35,6 +35,13 @@ Fortsæt derefter med den næste fil.
 """
 
 #  Write your function below this line.
-
+def factorial(number):
+    for i in range(number):
+       print(i)
+    result = 1
+    return result
 
 # Here starts the main program. From the main program you can call your functions.
+factorial_input = 5
+factorial_result = factorial(factorial_input)
+print("input:", factorial_input, "result:", factorial_result)
