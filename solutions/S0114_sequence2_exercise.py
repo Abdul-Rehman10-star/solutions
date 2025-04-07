@@ -40,7 +40,7 @@ Fortsæt derefter med den næste fil.
 
 #  Write your function below this line:
 def sequence2(min_value, max_value):
-    for tooth in range(min_value, max_value - 2):
+    for tooth in range(min_value, max_value + 1):
         print(tooth)
 
 # Here starts the main program. Call your function here:
