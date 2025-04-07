@@ -27,6 +27,8 @@ Fortsæt derefter med den næste fil.
 
 
 #  Write your function below this line:
-
-
+def sequence1(max_value):
+    for i in range(max_value):
+        print(i + 1)
 # Here starts the main program. Call your function here:
+sequence1(3)

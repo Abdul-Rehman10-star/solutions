@@ -48,6 +48,6 @@ Fortsæt derefter med den næste fil.
 """
 
 #  Write your functions below this line.
-print_repeatedly("string", end = 'repetition')
+def print_repeatedly("string", end = 'repetition'):
 
 # Here starts the main program. From the main program you can call your functions.

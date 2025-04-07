@@ -28,15 +28,15 @@ Vend tilbage til S0105_pycharm_tips.py og prøv nogle shortcuts i eksempelkoden 
 
 # Den følgende kode tjener som legeplads for de ovenstående opgaver.
 
-def eksempel(number):
+def ny_eksempel(some_number):
     result = 0
-    for n in range(number, 2 * number, 3):
+    for n in range(some_number, 2 * some_number, 3):
         result += n
     result *= 10
     return result
 
 
 print("Start")
-print(f"{eksempel(4)=}")
-print(f"{eksempel(7)=}")
+print(f"{ny_eksempel(4)=}")
+print(f"{ny_eksempel(7)=}")
 print("End")
