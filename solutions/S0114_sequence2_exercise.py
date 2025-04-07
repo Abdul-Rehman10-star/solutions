@@ -40,8 +40,8 @@ Fortsæt derefter med den næste fil.
 
 #  Write your function below this line:
 def sequence2(min_value, max_value):
-    for tooth in range(3, 5):
+    for tooth in range(min_value, max_value - 2):
         print(tooth)
 
 # Here starts the main program. Call your function here:
-sequence2(3, 5)
+sequence2(3, 8)
