@@ -44,4 +44,4 @@ def sequence2(min_value, max_value):
         print(tooth)
 
 # Here starts the main program. Call your function here:
-sequence2(3, 8)
+sequence2(2, 6)
