@@ -43,5 +43,9 @@ def sequence2(min_value, max_value):
     for tooth in range(min_value, max_value + 1):
         print(tooth)
 
+def sequence3(min_value, max_value, step_size):
+    for tooth in range(min_value, max_value, step_size):
+        print(tooth)
+
 # Here starts the main program. Call your function here:
-sequence2(2, 6)
+sequence3(3, 18, 4)
